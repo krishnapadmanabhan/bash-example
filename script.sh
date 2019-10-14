@@ -13,7 +13,7 @@ env
 
 echo "+++ :hammer: Example tests"
 
-echo -e "\033[33mCongratulations!\033[0m You've successfully run your build on Buildkite! 👍
+echo -e "\033[33mCongratulations!\033[0m You've successfully run your build on Buildkite!! 👍
 
 \033[33m$(cat artifacts/thumbsup.txt)\033[0m
 
