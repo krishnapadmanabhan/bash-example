@@ -1,6 +1,8 @@
 steps:
   - name: ":hammer: Example Script"
     command: "script.sh"
+    {% if not skipKubernetes %}
     artifact_paths: "artifacts/*"
+    {% endif %}
     agents:
       queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
